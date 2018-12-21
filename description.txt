@@ -4,6 +4,10 @@ Does not change ground minions. Tested on all vanilla minions. Should work with 
 
 Shares a homepage with my main mod.
 
+===v1.0.6===
+
+Now only affects minions that take minion slots to prevent some attacks from being affected.
+
 ===v1.0.5===
 
 * icon

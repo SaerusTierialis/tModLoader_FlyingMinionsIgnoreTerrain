@@ -10,7 +10,7 @@ namespace FlyingMinionsIgnoreTerrain
         {
             base.PostAI(projectile);
 
-            if (projectile.minion && (projectile.ignoreWater || projectile.aiStyle==54) && projectile.aiStyle != 26) projectile.tileCollide = false;
+            if (projectile.minion && (projectile.ignoreWater || projectile.aiStyle==54) && projectile.aiStyle != 26 && projectile.minionSlots>0) projectile.tileCollide = false;
         }
     }
 }
